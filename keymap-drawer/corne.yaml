@@ -40,7 +40,7 @@ layers:
   - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-command$$'}
   - ␣
   - {t: BACKSPACE, h: Number}
-  - {t: BACKSPACE, h: '4'}
+  - {t: BACKSPACE, h: '2'}
   - {t: ENTER, h: LOW}
   - {t: LANG1, h: RAI}
   Number:
@@ -86,49 +86,49 @@ layers:
   - ENTER
   - '0'
   - KP DOT
-  '4':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  '2':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+UP ARROW
+  - Ctl+↓
+  - Ctl+P
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+LEFT ARROW
+  - Ctl+→
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   Fn_SS: ['', '', '', '', '', '', F7, F8, F9, F10, F11, F12, '', '', '', '', '', '', F1, F2, F3, F4, F5, F6, '', '', '', '', '', '', Gui+Sft+3, Gui+Sft+4, Gui+Sft+5,
     Gui+Sft+Ctl+3, Gui+Sft+Ctl+4, Ctl+Gui+Sft+5, '', '', '', '', '', '']
   LOW:

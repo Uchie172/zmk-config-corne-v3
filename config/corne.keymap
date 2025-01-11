@@ -42,12 +42,12 @@
             label = "Number";
         };
 
-        layer_4 {
+        layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none    &none  &kp LC(UP_ARROW)    &kp LC(DOWN)   &kp LC(P)  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none      &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none               &none          &none      &none  &none
+                     &none  &none  &none    &none  &none               &none
             >;
         };
 
