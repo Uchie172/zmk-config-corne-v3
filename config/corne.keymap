@@ -14,7 +14,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Layer_0 {
             display-name = "BAS";
 
             // -----------------------------------------------------------------------------------------
@@ -27,8 +27,10 @@
 &mt LALT ESCAPE  &kp Q  &kp W  &kp E                &kp R      &kp T              &kp Y            &kp U        &kp I        &kp O    &kp P     &kp SINGLE_QUOTE
 &mt LCTRL TAB    &kp A  &kp S  &kp D                &kp F      &kp G              &kp H            &kp J        &kp K        &kp L    &kp SEMI  &kp MINUS
 &kp LSHFT        &kp Z  &kp X  &kp C                &kp V      &kp B              &kp N            &kp M        &kp COMMA    &kp DOT  &kp FSLH  &kp EQUAL
-                               &mt LGUI LANGUAGE_2  &kp SPACE  &lt 1 BACKSPACE    &lt 2 BACKSPACE  &lt 4 ENTER  &lt 5 LANG1
+                               &mt LGUI LANGUAGE_2  &kp SPACE  &lt 1 BACKSPACE    &lt 2 BACKSPACE  &lt 3 ENTER  &lt 4 LANG1
             >;
+
+            label = "QWERTY";
         };
 
         layer_1 {
@@ -44,22 +46,24 @@
 
         layer_2 {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &kp LC(UP_ARROW)    &kp LC(DOWN)   &kp LC(P)  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none      &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none               &none          &none      &none  &none
-                     &none  &none  &none    &none  &none               &none
+&none  &none  &none     &kp UP_ARROW    &none      &kp HOME         &none  &kp LC(UP_ARROW)    &kp LC(DOWN)   &kp LC(P)  &none  &none
+&none  &none  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_UP      &none  &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none      &none  &none
+&none  &none  &none     &none           &kp END    &kp PAGE_DOWN    &none  &none               &none          &none      &none  &none
+                        &none           &none      &none            &none  &none               &none
             >;
+
+            label = "Movement";
         };
 
         layer_3 {
             bindings = <
-&none  &none  &none  &none  &none  &none    &kp F7                &kp F8                &kp F9          &kp F10                   &kp F11                   &kp F12
-&none  &none  &none  &none  &none  &none    &kp F1                &kp F2                &kp F3          &kp F4                    &kp F5                    &kp F6
-&none  &none  &none  &none  &none  &none    &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &kp LG(LS(LC(NUMBER_3)))  &kp LG(LS(LC(NUMBER_4)))  &kp LC(LG(LS(N5)))
-                     &none  &none  &none    &none                 &none                 &none
+&kp K_MUTE         &none  &none  &none  &none  &none    &kp F7                &kp F8                &kp F9          &kp F10                   &kp F11                   &kp F12
+&kp C_VOLUME_DOWN  &none  &none  &none  &none  &none    &kp F1                &kp F2                &kp F3          &kp F4                    &kp F5                    &kp F6
+&kp C_VOLUME_UP    &none  &none  &none  &none  &none    &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &kp LG(LS(LC(NUMBER_3)))  &kp LG(LS(LC(NUMBER_4)))  &kp LC(LG(LS(N5)))
+                                 &none  &none  &none    &none                 &none                 &none
             >;
 
-            label = "Fn_SS";
+            label = "Fn_etc";
         };
 
         lower_layer {
