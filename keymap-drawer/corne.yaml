@@ -129,6 +129,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  Fn_SS: ['', '', '', '', '', '', F7, F8, F9, F10, F11, F12, '', '', '', '', '', '', F1, F2, F3, F4, F5, F6, '', '', '', '', '', '', Gui+Sft+3, Gui+Sft+4, Gui+Sft+5,
+    Gui+Sft+Ctl+3, Gui+Sft+Ctl+4, Ctl+Gui+Sft+5, '', '', '', '', '', '']
   LOW:
   - ↹
   - '1'
