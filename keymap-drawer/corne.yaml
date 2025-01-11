@@ -44,48 +44,48 @@ layers:
   - {t: ENTER, h: LOW}
   - {t: LANG1, h: RAI}
   '3':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - (
+  - )
+  - ''
+  - ''
+  - ''
+  - '`'
+  - '7'
+  - '8'
+  - '9'
+  - KP PLUS
+  - BACKSPACE
+  - ''
+  - '['
+  - ']'
+  - ''
+  - ''
+  - ''
+  - \
+  - '4'
+  - '5'
+  - '6'
+  - KP SUBTRACT
+  - ':'
+  - ''
+  - '{'
+  - '}'
+  - ''
+  - ''
+  - ''
+  - '='
+  - '1'
+  - '2'
+  - '3'
+  - KP DIVIDE
+  - KP MULTIPLY
+  - ''
+  - $$mdi:apple-keyboard-shift$$
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
+  - ''
+  - KP DOT
   '4':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

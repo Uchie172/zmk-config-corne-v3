@@ -33,10 +33,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&kp  &kp LPAR          &kp RPAR           &kp  &kp        &kp    &kp GRAVE      &kp N7  &kp N8      &kp N9  &kp KP_PLUS      &kp BACKSPACE
+&kp  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp  &kp        &kp    &kp BACKSLASH  &kp N4  &kp N5      &kp N6  &kp KP_SUBTRACT  &kp COLON
+&kp  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp  &kp        &kp    &kp EQUAL      &kp N1  &kp N2      &kp N3  &kp KP_DIVIDE    &kp KP_MULTIPLY
+                                          &kp  &kp LSHFT  &kp    &kp ENTER      &kp     &kp KP_DOT
             >;
         };
 
