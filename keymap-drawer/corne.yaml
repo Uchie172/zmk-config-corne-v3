@@ -39,11 +39,11 @@ layers:
   - '='
   - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-command$$'}
   - ␣
-  - {t: BACKSPACE, h: '3'}
+  - {t: BACKSPACE, h: Number}
   - {t: BACKSPACE, h: '4'}
   - {t: ENTER, h: LOW}
   - {t: LANG1, h: RAI}
-  '3':
+  Number:
   - ''
   - (
   - )
@@ -61,7 +61,7 @@ layers:
   - ']'
   - ''
   - ''
-  - ''
+  - Gui+Ctl+F
   - \
   - '4'
   - '5'
@@ -73,7 +73,7 @@ layers:
   - '}'
   - ''
   - ''
-  - ''
+  - Sft+Ctl+S
   - '='
   - '1'
   - '2'
@@ -84,7 +84,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {type: held}
   - ENTER
-  - ''
+  - '0'
   - KP DOT
   '4':
   - {t: ▽, type: trans}

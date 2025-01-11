@@ -31,13 +31,15 @@
             >;
         };
 
-        layer_3 {
+        layer_1 {
             bindings = <
-&kp  &kp LPAR          &kp RPAR           &kp  &kp        &kp    &kp GRAVE      &kp N7  &kp N8      &kp N9  &kp KP_PLUS      &kp BACKSPACE
-&kp  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp  &kp        &kp    &kp BACKSLASH  &kp N4  &kp N5      &kp N6  &kp KP_SUBTRACT  &kp COLON
-&kp  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp  &kp        &kp    &kp EQUAL      &kp N1  &kp N2      &kp N3  &kp KP_DIVIDE    &kp KP_MULTIPLY
-                                          &kp  &kp LSHFT  &kp    &kp ENTER      &kp     &kp KP_DOT
+&none  &kp LPAR          &kp RPAR           &none  &none      &none            &kp GRAVE      &kp N7  &kp N8      &kp N9  &kp KP_PLUS      &kp BACKSPACE
+&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none  &none      &kp LG(LC(F))    &kp BACKSLASH  &kp N4  &kp N5      &kp N6  &kp KP_SUBTRACT  &kp COLON
+&none  &kp LEFT_BRACE    &kp RIGHT_BRACE    &none  &none      &kp LS(LC(S))    &kp EQUAL      &kp N1  &kp N2      &kp N3  &kp KP_DIVIDE    &kp KP_MULTIPLY
+                                            &none  &kp LSHFT  &none            &kp ENTER      &kp N0  &kp KP_DOT
             >;
+
+            label = "Number";
         };
 
         layer_4 {
@@ -51,10 +53,10 @@
 
         layer_3 {
             bindings = <
-&kp  &kp  &kp  &kp  &kp  &kp    &kp F7                &kp F8                &kp F9          &kp F10                   &kp F11                   &kp F12
-&kp  &kp  &kp  &kp  &kp  &kp    &kp F1                &kp F2                &kp F3          &kp F4                    &kp F5                    &kp F6
-&kp  &kp  &kp  &kp  &kp  &kp    &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &kp LG(LS(LC(NUMBER_3)))  &kp LG(LS(LC(NUMBER_4)))  &kp LC(LG(LS(N5)))
-               &kp  &kp  &kp    &kp                   &kp                   &kp
+&none  &none  &none  &none  &none  &none    &kp F7                &kp F8                &kp F9          &kp F10                   &kp F11                   &kp F12
+&none  &none  &none  &none  &none  &none    &kp F1                &kp F2                &kp F3          &kp F4                    &kp F5                    &kp F6
+&none  &none  &none  &none  &none  &none    &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &kp LG(LS(LC(NUMBER_3)))  &kp LG(LS(LC(NUMBER_4)))  &kp LC(LG(LS(N5)))
+                     &none  &none  &none    &none                 &none                 &none
             >;
 
             label = "Fn_SS";
