@@ -39,9 +39,9 @@ layers:
   - '='
   - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-command$$'}
   - ␣
-  - {t: BACKSPACE, h: Number}
+  - {t: ⌦, h: Number}
   - {t: BACKSPACE, h: Movement}
-  - {t: ENTER, h: Fn_etc}
+  - {t: ENTER, h: Shortcuts}
   - {t: LANG1, h: LOW}
   Number:
   - ''
@@ -91,8 +91,8 @@ layers:
   - ''
   - ''
   - UP ARROW
+  - PAGE UP
   - ''
-  - Home
   - ''
   - Ctl+UP ARROW
   - Ctl+↓
@@ -100,11 +100,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Home
   - ←
   - DOWN ARROW
   - →
-  - PAGE UP
+  - End
   - ''
   - Ctl+LEFT ARROW
   - Ctl+→
@@ -115,7 +115,6 @@ layers:
   - ''
   - ''
   - ''
-  - End
   - PAGE DOWN
   - ''
   - ''
@@ -126,10 +125,11 @@ layers:
   - ''
   - ''
   - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
-  Fn_etc:
+  - $$mdi:apple-keyboard-shift$$
+  - LEFT GUI
+  Shortcuts:
   - MUTE
   - ''
   - ''
@@ -171,6 +171,92 @@ layers:
   - ''
   - ''
   - {type: held}
+  - ''
+  Browse:
+  - {t: QWERTY, h: toggle}
+  - ''
+  - ''
+  - Gui+R
+  - Gui+Sft+R
+  - Gui+J
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+0
+  - ''
+  - ''
+  - ''
+  - Sft+Ctl+↹
+  - Tab Right
+  - Sft+Gui+\
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+-
+  - ''
+  - Gui+Z
+  - Gui+W
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+,
+  - Sft+.
+  - ''
+  - Gui++
+  - $$mdi:apple-keyboard-command$$
+  - Sft+␣
+  - ␣
+  - ''
+  - ''
+  - ''
+  Media:
+  - {t: QWERTY, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   LOW:
   - ↹
