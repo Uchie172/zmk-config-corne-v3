@@ -344,3 +344,7 @@ layers:
   - ⏎
   - '&studio_unlock'
   - $$mdi:apple-keyboard-option$$
+combos:
+- p: [25, 26]
+  k: {t: Browse, h: toggle}
+  l: [QWERTY]

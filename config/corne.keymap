@@ -11,6 +11,16 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        BrowseLayer {
+            bindings = <&to 4>;
+            key-positions = <25 26>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
