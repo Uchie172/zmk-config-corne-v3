@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - '-'
-  - $$mdi:apple-keyboard-shift$$
+  - '&td0'
   - Z
   - X
   - C
