@@ -200,8 +200,8 @@ layers:
   - ''
   - Gui+Z
   - Gui+W
-  - ''
-  - ''
+  - Gui+C
+  - Gui+V
   - ''
   - ''
   - ''
@@ -218,6 +218,10 @@ layers:
   Media:
   - {t: QWERTY, h: toggle}
   - ''
+  - Gui+Ctl+T
+  - Gui+Ctl+A
+  - Gui+Ctl+S
+  - Gui+Ctl+G
   - ''
   - ''
   - ''
@@ -227,6 +231,9 @@ layers:
   - ''
   - ''
   - ''
+  - Gui+Ctl+P
+  - Gui+Ctl+F
+  - Gui+S
   - ''
   - ''
   - ''
@@ -236,28 +243,21 @@ layers:
   - ''
   - ''
   - ''
+  - Sft+Gui+[
+  - Sft+[
+  - Sft+]
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - ←
+  - ␣
+  - →
+  - VOLUME UP
+  - Vol Down
+  - MUTE
   LOW:
   - ↹
   - '1'
@@ -348,3 +348,5 @@ combos:
 - p: [25, 26]
   k: {t: Browse, h: toggle}
   l: [QWERTY]
+- p: [13, 14]
+  k: {t: Media, h: toggle}
