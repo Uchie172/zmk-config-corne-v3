@@ -13,6 +13,8 @@ manifest:
       url-base: https://github.com/mctechnology17
     - name: eswai
       url-base: https://github.com/eswai
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
