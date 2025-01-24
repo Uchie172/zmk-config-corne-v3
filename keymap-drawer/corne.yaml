@@ -301,6 +301,49 @@ layers:
   - VOLUME UP
   - Vol Down
   - {t: MUTE, type: held}
+  System:
+  - {t: QWERTY, h: toggle}
+  - {t: QWERTY, h: toggle}
+  - BT CLR ALL
+  - ''
+  - ''
+  - Boot
+  - '7'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT PRV
+  - BT NXT
+  - {type: held}
+  - {type: held}
+  - ''
+  - ''
 combos:
 - p: [25, 26]
   k: {t: Shortcuts, h: toggle}
