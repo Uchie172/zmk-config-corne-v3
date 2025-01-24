@@ -88,10 +88,10 @@
 
         naginata_layer {
             bindings = <
-&mt LALT ESCAPE  &ng Q  &ng W  &ng E    &ng R      &ng T        &ng Y            &ng U        &ng I        &ng O    &ng P     &kp SINGLE_QUOTE
-&mt LCTRL TAB    &ng A  &ng S  &ng D    &ng F      &ng G        &ng H            &ng J        &ng K        &ng L    &ng SEMI  &kp MINUS
-&td0             &ng Z  &ng X  &ng C    &ng V      &ng B        &ng N            &ng M        &ng COMMA    &ng DOT  &ng FSLH  &kp EQUAL
-                               &ng_off  &ng SPACE  &lt 2 DEL    &lt 3 BACKSPACE  &lt 4 ENTER  &lt 6 LANG1
+&mt LALT ESCAPE  &ng Q  &ng W  &ng E    &ng R      &ng T        &ng Y            &ng U        &ng I      &ng O    &ng P     &kp SINGLE_QUOTE
+&kp LCTRL        &ng A  &ng S  &ng D    &ng F      &ng G        &ng H            &ng J        &ng K      &ng L    &ng SEMI  &kp MINUS
+&td0             &ng Z  &ng X  &ng C    &ng V      &ng B        &ng N            &ng M        &ng COMMA  &ng DOT  &ng FSLH  &kp EQUAL
+                               &ng_off  &ng SPACE  &lt 2 DEL    &lt 3 BACKSPACE  &lt 4 ENTER  &ng_on
             >;
 
             label = "NAGINATA";
@@ -99,10 +99,10 @@
 
         layer_2 {
             bindings = <
-&none  &kp LPAR          &kp RPAR           &none  &none      &none            &kp GRAVE        &kp N7  &kp N8      &kp N9  &kp KP_PLUS      &none
-&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none  &none      &kp LG(LC(F))    &kp KP_MULTIPLY  &kp N4  &kp N5      &kp N6  &kp KP_SUBTRACT  &none
-&none  &kp LEFT_BRACE    &kp RIGHT_BRACE    &none  &none      &kp LS(LC(S))    &kp COLON        &kp N1  &kp N2      &kp N3  &kp KP_DIVIDE    &none
-                                            &none  &kp LSHFT  &none            &kp ENTER        &kp N0  &kp KP_DOT
+&none  &kp LPAR          &kp RPAR           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &none            &kp KP_EQUAL     &kp N7  &kp N8      &kp N9  &kp KP_PLUS      &none
+&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE         &kp TILDE          &kp LG(LC(F))    &kp KP_MULTIPLY  &kp N4  &kp N5      &kp N6  &kp KP_SUBTRACT  &none
+&none  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH     &kp PIPE           &kp LS(LC(S))    &kp COLON        &kp N1  &kp N2      &kp N3  &kp KP_DIVIDE    &none
+                                            &none             &kp LSHFT          &none            &kp ENTER        &kp N0  &kp KP_DOT
             >;
 
             label = "Number";
