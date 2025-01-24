@@ -340,8 +340,8 @@ layers:
   - ''
   - BT PRV
   - BT NXT
-  - {type: held}
-  - {type: held}
+  - ''
+  - ''
   - ''
   - ''
 combos:
@@ -357,3 +357,6 @@ combos:
 - p: [16, 17]
   k: '&ng_off'
   l: [QWERTY, NAGINATA]
+- p: [2, 1]
+  k: {t: System, h: toggle}
+  l: [QWERTY]

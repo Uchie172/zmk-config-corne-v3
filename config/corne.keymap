@@ -62,6 +62,12 @@
             bindings = <&ng_off>;
             layers = <0 1>;
         };
+
+        System {
+            bindings = <&to 7>;
+            key-positions = <2 1>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -156,12 +162,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        System {
-            if-layers = <0 2 3>;
-            then-layer = <7>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
