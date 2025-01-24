@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - '='
-  - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ESCAPE, h: '$$mdi:apple-keyboard-command$$'}
   - ␣
-  - {t: ⌦, h: NAGINATA}
-  - {t: BACKSPACE, h: Number}
-  - {t: ENTER, h: Movement}
-  - {t: LANG1, h: Media}
+  - {t: ⌦, h: Number}
+  - {t: BACKSPACE, h: Movement}
+  - {t: ENTER, h: Shortcuts}
+  - {t: ↹, h: Media}
   NAGINATA:
   - {t: ESCAPE, h: '$$mdi:apple-keyboard-option$$'}
   - '&ng Q'
@@ -80,11 +80,11 @@ layers:
   - '&ng DOT'
   - '&ng FSLH'
   - '='
-  - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-command$$'}
+  - '&ng_off'
   - '&ng SPACE'
-  - {t: ⌦, h: NAGINATA, type: held}
-  - {t: BACKSPACE, h: Number}
-  - {t: ENTER, h: Movement}
+  - {t: ⌦, h: Number}
+  - {t: BACKSPACE, h: Movement}
+  - {t: ENTER, h: Shortcuts}
   - {t: LANG1, h: Media}
   Number:
   - ''
@@ -98,35 +98,35 @@ layers:
   - '8'
   - '9'
   - KP PLUS
-  - BACKSPACE
+  - ''
   - ''
   - '['
   - ']'
   - ''
   - ''
   - Gui+Ctl+F
-  - \
+  - KP MULTIPLY
   - '4'
   - '5'
   - '6'
   - KP SUBTRACT
-  - ':'
+  - ''
   - ''
   - '{'
   - '}'
   - ''
   - ''
   - Sft+Ctl+S
-  - '='
+  - ':'
   - '1'
   - '2'
   - '3'
   - KP DIVIDE
-  - KP MULTIPLY
+  - ''
   - ''
   - $$mdi:apple-keyboard-shift$$
-  - ''
-  - {t: ENTER, type: held}
+  - {type: held}
+  - ENTER
   - '0'
   - KP DOT
   Movement:
@@ -169,11 +169,52 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - {t: '$$mdi:apple-keyboard-shift$$', type: held}
+  - {type: held}
+  - $$mdi:apple-keyboard-shift$$
   - LEFT GUI
-  Shortcuts: [MUTE, '', '', '', '', '', F7, F8, F9, F10, F11, F12, VOLUME DOWN, '', '', '', '', '', F1, F2, F3, F4, F5, F6, VOLUME UP, '', '', '', '', '', Gui+Sft+3,
-    Gui+Sft+4, Gui+Sft+5, Gui+Sft+Ctl+3, Gui+Sft+Ctl+4, Ctl+Gui+Sft+5, '', '', '', '', '', '']
+  Shortcuts:
+  - MUTE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - VOLUME DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - VOLUME UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+Sft+3
+  - Gui+Sft+4
+  - Gui+Sft+5
+  - Gui+Sft+Ctl+3
+  - Gui+Sft+Ctl+4
+  - Ctl+Gui+Sft+5
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
   Browse:
   - {t: QWERTY, h: toggle}
   - ''
