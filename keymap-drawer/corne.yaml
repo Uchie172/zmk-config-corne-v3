@@ -173,20 +173,20 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - LEFT GUI
   Shortcuts:
+  - ''
   - MUTE
   - ''
   - ''
   - ''
   - ''
-  - ''
+  - F6
   - F7
   - F8
   - F9
   - F10
-  - F11
-  - F12
-  - VOLUME DOWN
   - ''
+  - ''
+  - VOLUME DOWN
   - ''
   - ''
   - ''
@@ -196,9 +196,9 @@ layers:
   - F3
   - F4
   - F5
-  - F6
-  - VOLUME UP
   - ''
+  - ''
+  - VOLUME UP
   - ''
   - ''
   - ''
@@ -208,7 +208,7 @@ layers:
   - Gui+Sft+5
   - Gui+Sft+Ctl+3
   - Gui+Sft+Ctl+4
-  - Ctl+Gui+Sft+5
+  - ''
   - ''
   - ''
   - ''
