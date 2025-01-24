@@ -77,9 +77,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt LALT ESCAPE  &kp Q  &kp W  &kp E            &kp R      &kp T        &kp Y            &kp U        &kp I      &kp O    &kp P     &kp SINGLE_QUOTE
-&mt LCTRL TAB    &kp A  &kp S  &kp D            &kp F      &kp G        &kp H            &kp J        &kp K      &kp L    &kp SEMI  &kp MINUS
-&td0             &kp Z  &kp X  &kp C            &kp V      &kp B        &kp N            &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp EQUAL
+&mt LALT ESCAPE  &kp Q  &kp W  &kp E            &kp R      &kp T        &kp Y            &kp U        &kp I      &kp O    &kp P      &kp SINGLE_QUOTE
+&mt LCTRL TAB    &kp A  &kp S  &kp D            &kp F      &kp G        &kp H            &kp J        &kp K      &kp L    &kp MINUS  &kp SEMI
+&td0             &kp Z  &kp X  &kp C            &kp V      &kp B        &kp N            &kp M        &kp COMMA  &kp DOT  &kp FSLH   &kp EQUAL
                                &mt LGUI ESCAPE  &kp SPACE  &lt 2 DEL    &lt 3 BACKSPACE  &lt 4 ENTER  &lt 6 TAB
             >;
 
