@@ -152,10 +152,10 @@
 
         layer_7 {
             bindings = <
-&to 0  &to 0          &bt BT_CLR_ALL  &none          &none          &bootloader      &kp NUMBER_7  &none  &none  &none  &none  &none
-&none  &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &none         &none  &none  &none  &none  &none
-&none  &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &none         &none  &none  &none  &none  &none
-                                      &bt BT_PRV     &bt BT_NXT     &none            &none         &none  &none
+&to 0  &to 0          &none          &none          &none          &bootloader      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none  &none
+&none  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none  &none
+&none  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &none
+                                     &bt BT_PRV     &bt BT_NXT     &none            &none         &kp NUMBER_0  &kp ENTER
             >;
 
             label = "System";
