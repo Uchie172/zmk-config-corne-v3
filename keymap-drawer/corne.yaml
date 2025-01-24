@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - '='
-  - {t: ESCAPE, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: LANG1, h: '$$mdi:apple-keyboard-command$$'}
   - ␣
   - {t: ⌦, h: Number}
   - {t: BACKSPACE, h: Movement}
   - {t: ENTER, h: Shortcuts}
-  - {t: ↹, h: Media}
+  - {t: LANGUAGE 2, h: Media}
   NAGINATA:
   - {t: ESCAPE, h: '$$mdi:apple-keyboard-option$$'}
   - '&ng Q'
@@ -80,7 +80,7 @@ layers:
   - '&ng DOT'
   - '&ng FSLH'
   - '='
-  - '&ng_off'
+  - $$mdi:apple-keyboard-command$$
   - '&ng SPACE'
   - {t: ⌦, h: Number}
   - {t: BACKSPACE, h: Movement}
