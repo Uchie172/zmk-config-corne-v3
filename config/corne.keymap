@@ -35,7 +35,7 @@ ZMK_HOLD_TAP(hmr,
     hold-trigger-key-positions = <KEYS_L THUMBS>;
     hold-trigger-on-release;
 )
-/ {
+ {
     behaviors {
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
