@@ -90,8 +90,8 @@ layers:
   - ''
   - (
   - )
-  - ''''
-  - '"'
+  - '`'
+  - '~'
   - ''
   - KP EQUAL
   - '7'
@@ -102,8 +102,8 @@ layers:
   - ''
   - '['
   - ']'
-  - '`'
-  - '~'
+  - ''''
+  - '"'
   - Gui+Ctl+F
   - KP MULTIPLY
   - '4'
@@ -140,7 +140,7 @@ layers:
   - Ctl+UP ARROW
   - Ctl+↓
   - Ctl+P
-  - ''
+  - Gui+0
   - ''
   - ''
   - Home
@@ -152,7 +152,7 @@ layers:
   - Ctl+LEFT ARROW
   - Ctl+→
   - ''
-  - ''
+  - Gui+-
   - ''
   - ''
   - ''
@@ -164,7 +164,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Gui++
   - ''
   - ''
   - ''
@@ -217,7 +217,7 @@ layers:
   - ''
   Browse:
   - {t: QWERTY, h: toggle}
-  - ''
+  - {t: QWERTY, h: toggle}
   - ''
   - Gui+R
   - Gui+Sft+R
@@ -260,7 +260,7 @@ layers:
   - ''
   Media:
   - {t: QWERTY, h: toggle}
-  - ''
+  - {t: QWERTY, h: toggle}
   - Gui+Ctl+T
   - Gui+Ctl+A
   - Gui+Ctl+S
@@ -346,10 +346,11 @@ layers:
   - ''
 combos:
 - p: [25, 26]
-  k: {t: Shortcuts, h: toggle}
+  k: {t: Browse, h: toggle}
   l: [QWERTY]
 - p: [13, 14]
-  k: {t: Browse, h: toggle}
+  k: {t: Media, h: toggle}
+  l: [QWERTY]
 - p: [18, 19]
   k: '&ng_on'
   l: [QWERTY]

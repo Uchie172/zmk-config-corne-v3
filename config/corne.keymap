@@ -38,14 +38,15 @@
         compatible = "zmk,combos";
 
         BrowseLayer {
-            bindings = <&to 4>;
+            bindings = <&to 5>;
             key-positions = <25 26>;
             layers = <0>;
         };
 
         MediaLayer {
-            bindings = <&to 5>;
+            bindings = <&to 6>;
             key-positions = <13 14>;
+            layers = <0>;
         };
 
         combo_ng_on {
@@ -98,8 +99,8 @@
 
         layer_2 {
             bindings = <
-&none  &kp LPAR          &kp RPAR           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &none            &kp KP_EQUAL     &kp N7  &kp N8      &kp N9  &kp KP_PLUS      &none
-&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE         &kp TILDE          &kp LG(LC(F))    &kp KP_MULTIPLY  &kp N4  &kp N5      &kp N6  &kp KP_SUBTRACT  &none
+&none  &kp LPAR          &kp RPAR           &kp GRAVE         &kp TILDE          &none            &kp KP_EQUAL     &kp N7  &kp N8      &kp N9  &kp KP_PLUS      &none
+&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LG(LC(F))    &kp KP_MULTIPLY  &kp N4  &kp N5      &kp N6  &kp KP_SUBTRACT  &none
 &none  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH     &kp PIPE           &kp LS(LC(S))    &kp COLON        &kp N1  &kp N2      &kp N3  &kp KP_DIVIDE    &none
                                             &none             &kp LSHFT          &none            &kp ENTER        &kp N0  &kp KP_DOT
             >;
@@ -109,9 +110,9 @@
 
         layer_3 {
             bindings = <
-&none  &none     &none     &kp UP_ARROW    &kp PAGE_UP    &none      &none  &kp LC(UP_ARROW)    &kp LC(DOWN)   &kp LC(P)  &none  &none
-&none  &kp HOME  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &kp END    &none  &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none      &none  &none
-&none  &none     &none     &none           &kp PAGE_DOWN  &none      &none  &none               &none          &none      &none  &none
+&none  &none     &none     &kp UP_ARROW    &kp PAGE_UP    &none      &none  &kp LC(UP_ARROW)    &kp LC(DOWN)   &kp LC(P)  &kp LG(NUMBER_0)  &none
+&none  &kp HOME  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &kp END    &none  &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none      &kp LG(MINUS)     &none
+&none  &none     &none     &none           &kp PAGE_DOWN  &none      &none  &none               &none          &none      &kp LG(PLUS)      &none
                            &none           &none          &none      &none  &kp LSHFT           &kp LEFT_GUI
             >;
 
@@ -131,7 +132,7 @@
 
         layer_5 {
             bindings = <
-&to 0  &none      &none      &kp LG(R)        &kp LG(LS(R))  &kp LG(J)                &none  &none  &none          &none           &none  &kp LG(NUMBER_0)
+&to 0  &to 0      &none      &kp LG(R)        &kp LG(LS(R))  &kp LG(J)                &none  &none  &none          &none           &none  &kp LG(NUMBER_0)
 &none  &none      &none      &kp LS(LC(TAB))  &kp LC(TAB)    &kp LS(LG(BACKSLASH))    &none  &none  &none          &none           &none  &kp LG(MINUS)
 &none  &kp LG(Z)  &kp LG(W)  &kp LG(C)        &kp LG(V)      &none                    &none  &none  &kp LS(COMMA)  &kp LS(PERIOD)  &none  &kp LG(PLUS)
                              &kp LGUI         &kp LS(SPACE)  &kp SPACE                &none  &none  &none
@@ -142,7 +143,7 @@
 
         layer_6 {
             bindings = <
-&to 0  &none  &kp LG(LC(T))  &kp LG(LC(A))             &kp LG(LC(S))         &kp LG(LC(G))            &none            &none         &none       &none  &none  &none
+&to 0  &to 0  &kp LG(LC(T))  &kp LG(LC(A))             &kp LG(LC(S))         &kp LG(LC(G))            &none            &none         &none       &none  &none  &none
 &none  &none  &none          &kp LG(LC(P))             &kp LG(LC(F))         &kp LG(S)                &none            &none         &none       &none  &none  &none
 &none  &none  &none          &kp LS(LG(LEFT_BRACKET))  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)    &none            &none         &none       &none  &none  &none
                              &kp LEFT                  &kp SPACE             &kp RIGHT                &kp C_VOLUME_UP  &kp C_VOL_DN  &kp K_MUTE
@@ -153,10 +154,10 @@
 
         layer_7 {
             bindings = <
-&to 0  &to 0          &bt BT_CLR_ALL  &kp            &kp            &bootloader      &kp NUMBER_7  &kp  &kp  &kp  &kp  &kp
-&kp    &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &kp           &kp  &kp  &kp  &kp  &kp
-&kp    &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &kp           &kp  &kp  &kp  &kp  &kp
-                                      &bt BT_PRV     &bt BT_NXT     &kp              &kp           &kp  &kp
+&to 0  &to 0          &bt BT_CLR_ALL  &none          &none          &bootloader      &kp NUMBER_7  &none  &none  &none  &none  &none
+&none  &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &none         &none  &none  &none  &none  &none
+&none  &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &none         &none  &none  &none  &none  &none
+                                      &bt BT_PRV     &bt BT_NXT     &none            &none         &none  &none
             >;
 
             label = "System";
