@@ -360,3 +360,18 @@ combos:
 - p: [2, 1]
   k: {t: System, h: toggle}
   l: [QWERTY]
+- p: [5, 19, 20]
+  k: /
+  l: [NAGINATA]
+- p: [19, 31]
+  k: Ctl+J
+  l: [NAGINATA]
+- p: [20, 32]
+  k: Ctl+K
+  l: [NAGINATA]
+- p: [22, 34]
+  k: Ctl+Gui+␣
+  l: [NAGINATA]
+- p: [22, 21]
+  k: ;
+  l: [QWERTY]

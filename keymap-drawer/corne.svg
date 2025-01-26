@@ -435,6 +435,10 @@ rect.held, rect.combo.held {
 <text x="112" y="42" class="combo tap layer-activator">System</text>
 </a><text x="112" y="53" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="714" y="85" width="28" height="26" class="combo"/>
+<text x="728" y="98" class="combo tap">;</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 331)" class="layer-NAGINATA">
@@ -679,6 +683,27 @@ rect.held, rect.combo.held {
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
 <text x="280" y="94" class="combo tap"><tspan style="font-size: 86%">&amp;ng_off</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M513,72 l-187,-28" class="combo"/>
+<path d="M513,72 l57,14" class="combo"/>
+<path d="M513,72 l112,10" class="combo"/>
+<rect rx="6" ry="6" x="499" y="59" width="28" height="26" class="combo"/>
+<text x="513" y="72" class="combo tap">/</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="574" y="106" width="28" height="26" class="combo"/>
+<text x="588" y="119" class="combo tap">Ctl+J</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="630" y="99" width="28" height="26" class="combo"/>
+<text x="644" y="112" class="combo tap">Ctl+K</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="742" y="120" width="28" height="26" class="combo"/>
+<text x="756" y="133" class="combo tap">
+<tspan x="756" dy="-0.6em">Ctl+</tspan><tspan x="756" dy="1.2em">Gui+␣</tspan>
+</text>
 </g>
 </g>
 </g>
