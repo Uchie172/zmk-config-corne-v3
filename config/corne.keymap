@@ -75,10 +75,10 @@
 
         Layer_0 {
             bindings = <
-&mt LALT ESCAPE  &kp Q  &kp W  &kp E         &kp R           &kp T        &kp Y            &kp U        &kp I      &kp O    &kp P      &kp SINGLE_QUOTE
-&mt LCTRL TAB    &kp A  &kp S  &kp D         &kp F           &kp G        &kp H            &kp J        &kp K      &kp L    &kp MINUS  &kp SEMI
-&td0             &kp Z  &kp X  &kp C         &kp V           &kp B        &kp N            &kp M        &kp COMMA  &kp DOT  &kp FSLH   &kp EQUAL
-                               &mt LGUI TAB  &mt LALT SPACE  &lt 2 DEL    &lt 3 BACKSPACE  &lt 4 ENTER  &ng_on
+&mt LALT ESCAPE  &kp Q  &kp W  &kp E     &kp R           &kp T        &kp Y            &kp U        &kp I      &kp O    &kp P      &kp SINGLE_QUOTE
+&mt LCTRL TAB    &kp A  &kp S  &kp D     &kp F           &kp G        &kp H            &kp J        &kp K      &kp L    &kp MINUS  &kp SEMI
+&td0             &kp Z  &kp X  &kp C     &kp V           &kp B        &kp N            &kp M        &kp COMMA  &kp DOT  &kp FSLH   &kp EQUAL
+                               &kp LGUI  &mt LALT SPACE  &lt 2 DEL    &lt 3 BACKSPACE  &lt 4 ENTER  &ng_on
             >;
 
             label = "QWERTY";
@@ -108,10 +108,10 @@
 
         layer_3 {
             bindings = <
-&none  &none     &none     &kp UP_ARROW    &kp PAGE_UP    &none      &none  &kp LC(UP_ARROW)    &kp LC(DOWN)   &kp LC(P)  &kp LG(NUMBER_0)  &none
-&none  &kp HOME  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &kp END    &none  &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none      &kp LG(MINUS)     &none
-&none  &none     &none     &none           &kp PAGE_DOWN  &none      &none  &none               &none          &none      &kp LG(PLUS)      &none
-                           &none           &none          &none      &none  &kp LSHFT           &kp LEFT_GUI
+&none  &kp ESCAPE  &kp HOME  &kp UP_ARROW    &kp PAGE_UP    &none      &none  &kp LC(UP_ARROW)    &kp LC(DOWN)   &kp LC(P)  &kp LG(NUMBER_0)  &none
+&none  &kp TAB     &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &kp END    &none  &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none      &kp LG(MINUS)     &none
+&none  &none       &kp END   &none           &kp PAGE_DOWN  &none      &none  &none               &none          &none      &kp LG(PLUS)      &none
+                             &none           &none          &none      &none  &kp LSHFT           &kp LEFT_GUI
             >;
 
             label = "Movement";
@@ -130,9 +130,9 @@
 
         layer_5 {
             bindings = <
-&to 0  &to 0      &none      &kp LG(R)        &kp LG(LS(R))  &kp LG(J)                &none  &none  &none          &none           &none  &kp LG(NUMBER_0)
-&none  &none      &none      &kp LS(LC(TAB))  &kp LC(TAB)    &kp LS(LG(BACKSLASH))    &none  &none  &none          &none           &none  &kp LG(MINUS)
-&none  &kp LG(Z)  &kp LG(W)  &kp LG(C)        &kp LG(V)      &none                    &none  &none  &kp LS(COMMA)  &kp LS(PERIOD)  &none  &kp LG(PLUS)
+&to 0  &to 0      &none      &kp LG(R)        &kp LG(LS(R))  &kp LG(J)                &none  &none  &none          &none           &kp LG(NUMBER_0)  &none
+&none  &none      &none      &kp LS(LC(TAB))  &kp LC(TAB)    &kp LS(LG(BACKSLASH))    &none  &none  &none          &none           &kp LG(MINUS)     &none
+&none  &kp LG(Z)  &kp LG(W)  &kp LG(C)        &kp LG(V)      &none                    &none  &none  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LG(PLUS)      &none
                              &kp LGUI         &kp LS(SPACE)  &kp SPACE                &none  &none  &none
             >;
 

@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - '='
-  - {t: ↹, h: '$$mdi:apple-keyboard-command$$'}
+  - $$mdi:apple-keyboard-command$$
   - {t: ␣, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ⌦, h: Number}
   - {t: BACKSPACE, h: Movement}
@@ -131,8 +131,8 @@ layers:
   - KP DOT
   Movement:
   - ''
-  - ''
-  - ''
+  - ESCAPE
+  - Home
   - UP ARROW
   - PAGE UP
   - ''
@@ -143,7 +143,7 @@ layers:
   - Gui+0
   - ''
   - ''
-  - Home
+  - ↹
   - ←
   - DOWN ARROW
   - →
@@ -156,7 +156,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - End
   - ''
   - PAGE DOWN
   - ''
@@ -226,8 +226,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - Gui+0
+  - ''
   - ''
   - ''
   - ''
@@ -238,8 +238,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - Gui+-
+  - ''
   - ''
   - Gui+Z
   - Gui+W
@@ -250,8 +250,8 @@ layers:
   - ''
   - Sft+,
   - Sft+.
-  - ''
   - Gui++
+  - ''
   - $$mdi:apple-keyboard-command$$
   - Sft+␣
   - ␣
