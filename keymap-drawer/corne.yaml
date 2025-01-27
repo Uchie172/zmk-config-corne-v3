@@ -85,7 +85,7 @@ layers:
   - {t: ⌦, h: Number}
   - {t: BACKSPACE, h: Movement}
   - '&ng ENTER'
-  - ↹
+  - ''
   Number:
   - ''
   - (
