@@ -371,13 +371,16 @@ combos:
   l: [NAGINATA]
 - p: [22, 34]
   k: Ctl+Gui+␣
-  l: [NAGINATA]
+  l: [NAGINATA, QWERTY]
 - p: [22, 21]
   k: ;
   l: [QWERTY]
 - p: [1, 2]
   k: ESCAPE
-  l: [QWERTY]
+  l: [QWERTY, NAGINATA]
 - p: [13, 14]
   k: ↹
-  l: [QWERTY]
+  l: [QWERTY, NAGINATA]
+- p: [19, 20, 16]
+  k: '&kakko'
+  l: [NAGINATA, QWERTY]

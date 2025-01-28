@@ -32,6 +32,14 @@
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LANGUAGE_2 &kp INTERNATIONAL_5 &to 0>;
         };
+
+        kakko: kakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LPAR &kp RPAR &kp LC(B)>;
+
+            label = "KAKKO";
+        };
     };
 
     combos {
@@ -93,7 +101,7 @@
         Emo {
             bindings = <&kp LC(LG(SPACE))>;
             key-positions = <22 34>;
-            layers = <1>;
+            layers = <1 0>;
             timeout-ms = <150>;
         };
 
@@ -107,14 +115,21 @@
         ESC2 {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
-            layers = <0>;
+            layers = <0 1>;
             timeout-ms = <150>;
         };
 
         TAB2 {
             bindings = <&kp TAB>;
             key-positions = <13 14>;
-            layers = <0>;
+            layers = <0 1>;
+            timeout-ms = <150>;
+        };
+
+        kakko {
+            bindings = <&kakko>;
+            key-positions = <19 20 16>;
+            layers = <1 0>;
             timeout-ms = <150>;
         };
     };
