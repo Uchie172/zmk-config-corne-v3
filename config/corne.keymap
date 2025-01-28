@@ -40,6 +40,22 @@
 
             label = "KAKKO";
         };
+
+        ng_kakko1: ng_kakko1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LPAR &kp RPAR &kp ENTER &kp LC(B)>;
+
+            label = "NG_KAKKO1";
+        };
+
+        ng_kakko2: ng_kakko2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LPAR &kp RPAR>;
+
+            label = "NG_KAKKO2";
+        };
     };
 
     combos {
@@ -71,7 +87,7 @@
             layers = <0 1>;
         };
 
-        System {
+        SystemR {
             bindings = <&to 7>;
             key-positions = <10 22 34>;
             layers = <0>;
@@ -129,8 +145,28 @@
         kakko {
             bindings = <&kakko>;
             key-positions = <19 20 16>;
-            layers = <1 0>;
+            layers = <0>;
             timeout-ms = <150>;
+        };
+
+        ng_kakko1 {
+            bindings = <&ng_kakko1>;
+            key-positions = <19 20 16>;
+            timeout-ms = <150>;
+            layers = <1>;
+        };
+
+        ng_kakko2 {
+            bindings = <&ng_kakko2>;
+            key-positions = <19 20 13>;
+            timeout-ms = <150>;
+            layers = <1>;
+        };
+
+        SystemL {
+            bindings = <&to 7>;
+            key-positions = <5 17 29>;
+            layers = <0>;
         };
     };
 
@@ -216,7 +252,7 @@
 
         layer_7 {
             bindings = <
-&to 0  &to 0          &none          &none          &none          &bootloader      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &soft_off  &none
+&to 0  &to 0          &none          &none          &bootloader    &soft_off        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &soft_off  &none
 &none  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none      &none
 &none  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none      &none
                                      &bt BT_PRV     &bt BT_NXT     &none            &none         &kp NUMBER_0  &kp ENTER

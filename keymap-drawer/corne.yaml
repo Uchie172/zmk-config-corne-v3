@@ -306,8 +306,8 @@ layers:
   - {t: QWERTY, h: toggle}
   - ''
   - ''
-  - ''
   - Boot
+  - '&soft_off'
   - '7'
   - '8'
   - '9'
@@ -383,4 +383,13 @@ combos:
   l: [QWERTY, NAGINATA]
 - p: [19, 20, 16]
   k: '&kakko'
-  l: [NAGINATA, QWERTY]
+  l: [QWERTY]
+- p: [19, 20, 16]
+  k: '&ng_kakko1'
+  l: [NAGINATA]
+- p: [19, 20, 13]
+  k: '&ng_kakko2'
+  l: [NAGINATA]
+- p: [5, 17, 29]
+  k: {t: System, h: toggle}
+  l: [QWERTY]
