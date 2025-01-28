@@ -312,7 +312,7 @@ layers:
   - '8'
   - '9'
   - ''
-  - ''
+  - '&soft_off'
   - ''
   - ''
   - BT 1
@@ -345,10 +345,10 @@ layers:
   - '0'
   - ENTER
 combos:
-- p: [25, 26]
+- p: [25, 13]
   k: {t: Browse, h: toggle}
   l: [QWERTY]
-- p: [13, 14]
+- p: [14, 26]
   k: {t: Media, h: toggle}
   l: [QWERTY]
 - p: [18, 19]
@@ -357,7 +357,7 @@ combos:
 - p: [16, 17]
   k: '&ng_off'
   l: [QWERTY, NAGINATA]
-- p: [2, 1]
+- p: [10, 22, 34]
   k: {t: System, h: toggle}
   l: [QWERTY]
 - p: [5, 19, 20]
@@ -374,4 +374,10 @@ combos:
   l: [NAGINATA]
 - p: [22, 21]
   k: ;
+  l: [QWERTY]
+- p: [1, 2]
+  k: ESCAPE
+  l: [QWERTY]
+- p: [13, 14]
+  k: ↹
   l: [QWERTY]

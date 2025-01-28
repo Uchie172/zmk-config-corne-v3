@@ -39,13 +39,13 @@
 
         BrowseLayer {
             bindings = <&to 5>;
-            key-positions = <25 26>;
+            key-positions = <25 13>;
             layers = <0>;
         };
 
         MediaLayer {
             bindings = <&to 6>;
-            key-positions = <13 14>;
+            key-positions = <14 26>;
             layers = <0>;
         };
 
@@ -65,7 +65,7 @@
 
         System {
             bindings = <&to 7>;
-            key-positions = <2 1>;
+            key-positions = <10 22 34>;
             layers = <0>;
         };
 
@@ -100,6 +100,20 @@
         Semicolon {
             bindings = <&kp SEMI>;
             key-positions = <22 21>;
+            layers = <0>;
+            timeout-ms = <150>;
+        };
+
+        ESC2 {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+            layers = <0>;
+            timeout-ms = <150>;
+        };
+
+        TAB2 {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
             layers = <0>;
             timeout-ms = <150>;
         };
@@ -187,9 +201,9 @@
 
         layer_7 {
             bindings = <
-&to 0  &to 0          &none          &none          &none          &bootloader      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none  &none
-&none  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none  &none
-&none  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &none
+&to 0  &to 0          &none          &none          &none          &bootloader      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &soft_off  &none
+&none  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none      &none
+&none  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none      &none
                                      &bt BT_PRV     &bt BT_NXT     &none            &none         &kp NUMBER_0  &kp ENTER
             >;
 
