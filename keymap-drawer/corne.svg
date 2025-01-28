@@ -751,11 +751,11 @@ rect.held, rect.combo.held {
 <text x="495" y="89" class="combo tap"><tspan style="font-size: 60%">&amp;ng_kakko1</tspan></text>
 </g>
 <g class="combo combopos-8">
-<path d="M439,93 l131,-2" class="combo"/>
-<path d="M439,93 l187,-8" class="combo"/>
-<path d="M439,93 l-336,11" class="combo"/>
-<rect rx="6" ry="6" x="425" y="80" width="28" height="26" class="combo"/>
-<text x="439" y="93" class="combo tap"><tspan style="font-size: 60%">&amp;ng_kakko2</tspan></text>
+<path d="M457,89 l112,2" class="combo"/>
+<path d="M457,89 l168,-4" class="combo"/>
+<path d="M457,89 l-299,2" class="combo"/>
+<rect rx="6" ry="6" x="443" y="76" width="28" height="26" class="combo"/>
+<text x="457" y="89" class="combo tap"><tspan style="font-size: 60%">&amp;ng_kakko2</tspan></text>
 </g>
 </g>
 </g>

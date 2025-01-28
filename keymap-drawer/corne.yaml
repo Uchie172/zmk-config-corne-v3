@@ -387,7 +387,7 @@ combos:
 - p: [19, 20, 16]
   k: '&ng_kakko1'
   l: [NAGINATA]
-- p: [19, 20, 13]
+- p: [19, 20, 14]
   k: '&ng_kakko2'
   l: [NAGINATA]
 - p: [5, 17, 29]

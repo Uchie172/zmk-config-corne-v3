@@ -158,7 +158,7 @@
 
         ng_kakko2 {
             bindings = <&ng_kakko2>;
-            key-positions = <19 20 13>;
+            key-positions = <19 20 14>;
             timeout-ms = <150>;
             layers = <1>;
         };
