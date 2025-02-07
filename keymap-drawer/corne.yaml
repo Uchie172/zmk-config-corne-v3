@@ -346,10 +346,10 @@ layers:
   - ENTER
 combos:
 - p: [25, 13]
-  k: {t: Browse, h: toggle}
+  k: {t: Media, h: toggle}
   l: [QWERTY]
 - p: [14, 26]
-  k: {t: Media, h: toggle}
+  k: {t: System, h: toggle}
   l: [QWERTY]
 - p: [18, 19]
   k: '&ng_on'
